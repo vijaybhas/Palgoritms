@@ -18,6 +18,7 @@ unsigned long fib(int n)
 
 int main()
 {
+  init();
   cout << fib(20);
   gtch();
   
