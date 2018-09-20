@@ -1,6 +1,5 @@
 #include <iostream>
 
-typedef void* (f)(void*) MainFunc;
 
 class RunMain
 {
@@ -9,5 +8,5 @@ class RunMain
     
     virtual void Run();
     
-    virtual void RunFunc((void*) (f)(void*));
-}
+  
+};

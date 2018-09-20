@@ -1,11 +1,15 @@
+#include "stdafx.h"
+
 #include <iostream>
-#include<stream>
+
+
+using namespace std;
 
 unsigned long Fib[100];
 
 void init()
 {
-  memset(fib, 0, sizeof(fib));
+  memset(Fib, 0, sizeof(Fib));
 }
 
 unsigned long fib(int n)
@@ -16,12 +20,10 @@ unsigned long fib(int n)
   return Fib[n-1] + Fib[n-2];
 }
 
-int main()
+int run()
 {
   init();
   cout << fib(20);
-  gtch();
-  
   
   return 0;
 }
