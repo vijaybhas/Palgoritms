@@ -12,7 +12,7 @@ struct CS {
 };
 
 CS& fun(CS c) {
-	
+
 	c.x = 1;
 
 	return c;
@@ -36,6 +36,5 @@ int main()
 /*
 hi==== CS constr
 4127180
-
 
 */
