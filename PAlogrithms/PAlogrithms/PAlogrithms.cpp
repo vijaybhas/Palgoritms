@@ -32,3 +32,10 @@ int main()
   return 0;
 }
 
+//The result :
+/*
+hi==== CS constr
+4127180
+
+
+*/
